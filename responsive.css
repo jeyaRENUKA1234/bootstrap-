@@ -1,0 +1,17 @@
+@media(max-width:768px)
+{
+      .bannersect h1
+          {
+			font-size:28px;
+			line-height:32px;
+			}
+	.bannersect p
+	{
+		  font-size:18px;
+		  line-height:22px;
+	}
+	.volup-sect  h1 
+	{
+		font-size:30px;
+	}
+}
