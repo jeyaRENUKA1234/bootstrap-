@@ -541,13 +541,12 @@
 .card .icon{
 	position:absolute;
 	left:0;
-	bottom:100px;
+	bottom:120px;
 	right:0;
 	padding-left:3px;
 	transition:0.3s;
 	display:flex;
 	align-items:center;
-	transition: ease-in-out 0.3s;
 	justify-content:center;
 	opacity:0;
 }
@@ -567,7 +566,8 @@
 }
 .card:hover .icon{
 	 opacity:1;
-	 transition:0.3s;
+	 transition:all 0.3s ease;
+	 transform:translate(0,15px);
 }
 .card a:hover{
 	background-color:black;
