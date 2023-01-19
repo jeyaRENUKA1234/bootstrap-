@@ -23,7 +23,7 @@
 	color:red !important;
 }
 .but:hover{
-	background-color:#006400;
+	background-color:black;
 }
 .navbar-toggle:focus{
 	box-shadow:none;
@@ -55,16 +55,16 @@
 }
 .banner-image button:hover{
 	background:none;
-	border:2px solid white;
+	border:1px solid white;
 }
 			/*logo item */
 			
 .client-logo img{
-	width:60%;
+	width:100%;
 	filter:grayscale(100%);
 	opacity:0.5;
 }
-.logo-item:hover img{
+.client-logo:hover img{
 	filter:grayscale(0%);
 	opacity:1
 }
@@ -191,13 +191,13 @@
 	font-size:40px;
 }
 .abt-tab .nav-item .nav-link:hover{
-	color:red;
+	color:#dc3545;
 	border-color:#eee;
 }			
 .abt-tab .nav-item .nav-link.active{
      background-color:#ff0000c9;
 	 color:#fff;
-	 border-color:red;
+	 border-color:#dc3545;
 }	
 .tab-pane{
 	padding-top:25px;
@@ -243,17 +243,17 @@
 	font-weight:700;
 	position:relative;
 }
-.heading-sect h2:after{
+.heading-sect h2::after{
 	content:"";
+	top:60px;
 	position:absolute;
-	top:45px;
-	left:48%;
+	left:50%;
 	display:block;
 	bottom:0;
 	width:55px;
 	height:3px;
 	background-color:#e00e0ec4;
-	margin:10px 0;
+	transform:translateX(-50%);
 }
 .heading-sect p{
 	color:#fff;
@@ -410,8 +410,10 @@
 	width:15px;
 	height:15px;
 	border-radius:50%;
-	border:none;
-	background-color:red;
+	border:1px solid red;
+}
+.carousel-indicators [data-bs-target]:hover{
+	background-color:#dc3545;
 }
 
 	/*prici */
@@ -491,7 +493,7 @@
 	color:#bababa;
 }
 .prici-bus{
-	background:red;
+	background:#dc3545;
 }
 .prici-marks button:hover{
 	
@@ -545,6 +547,7 @@
 	transition:0.3s;
 	display:flex;
 	align-items:center;
+	transition: ease-in-out 0.3s;
 	justify-content:center;
 	opacity:0;
 }
@@ -554,7 +557,7 @@
 }
 .card .icon a{
 	
-	background:red;
+	background:#dc3545;
 	color:#fff;
 	margin-right:4px;
 	padding:12px 14px;
@@ -596,8 +599,8 @@
 }
 .call >i{
 	font-size:32px;
-	color:red;
-	border:dotted 2px red;
+	color:#dc3545;
+	border:dotted 2px #dc3545;
 	width:50px;
 	height:50px;
 	border-radius:50%;
@@ -638,7 +641,7 @@
      font-weight:800;
 }
 .footercontact span{
-	color:red;
+	color:#dc3545;
 }
 
 .footerlink{
@@ -654,7 +657,7 @@
     width: 30px;
 	height:60px;
     content: "";
-    border-bottom: 2px solid red;
+    border-bottom: 2px solid #dc3545;
 }
 .footerlink h3{
 	font-weight:500;
@@ -672,7 +675,7 @@
 	transition:0.5s;
 }
 .footerlink .funticon  i{
-	color:red;
+	color:#dc3545;
 	margin-right:4px;
 }
 .footernewsletter{
@@ -722,7 +725,7 @@
     right:0;
     padding:8px 30px;
     border:none;
-    background-color:red;
+    background-color:#dc3545;
     color: #fff;
     font-size: 16px;
     font-family: "Open Sans", sans-serif;
@@ -739,7 +742,7 @@
 }
 .credits .authorlink a{
 	text-decoration:none;
-	color:red;
+	color:#dc3545;
 }
 .authoricon a{
 	font-size: 16px;
@@ -755,9 +758,9 @@
 	color:#fff;
 }
 .authoricon a:hover{
-	background-color:red;	
+	background-color:#dc3545;;	
 }
 
 .accordion-item:hover .accordion-button{
-          color:red;
+          color:#dc3545;
 }
