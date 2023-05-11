@@ -77,6 +77,7 @@
 .volup-sect{
 	position:relative;
 	margin-top:100px;
+	margin:20px 0px;
 }			
 .volup-sect:after{
 	content:"";
@@ -158,6 +159,7 @@
 		/* modi sit */
 .modi-sect{
 	padding:30px 0;
+	margin:20px 0px;
 }
 .abt-tab{
 	border:none;
@@ -220,6 +222,7 @@
 	/* service sect */
 .service-sect{
 	position:relative;
+	margin:30px 0px;
 }
 .servicepara p{
 	color:#fff;
@@ -272,11 +275,15 @@
 }
 .service-item{
 	background-color:#30303066;
+	border-radius:10px;
 }
 .servicepara a:hover{
 	text-decoration:underline;
 }
 		/* port */
+.port-sect{
+	margin:50px 0px;
+}
 .colo h2{
 	color:black;
 }
@@ -737,8 +744,11 @@
 }
 	/* footer*/
 .footer-sect{
+	display:flex;
+	/* align-items:center; */
+	justify-content:center;
 	background-color:black;
-	padding-bottom:20px;
+	/* padding-bottom:20px; */
 }
 .credits .authorlink a{
 	text-decoration:none;
