@@ -76,8 +76,8 @@
 			
 .volup-sect{
 	position:relative;
-	margin-top:100px;
-	margin:20px 0px;
+	margin-top:170px;
+	/* margin:50px 0px; */
 }			
 .volup-sect:after{
 	content:"";
@@ -222,7 +222,8 @@
 	/* service sect */
 .service-sect{
 	position:relative;
-	margin:30px 0px;
+	margin:130px 0px;
+	padding-top: 30px;
 }
 .servicepara p{
 	color:#fff;
@@ -245,15 +246,16 @@
 	color:#fff;
 	font-weight:700;
 	position:relative;
+	padding-top:40px;
 }
 .heading-sect h2::after{
 	content:"";
-	top:60px;
+	top:90px;
 	position:absolute;
 	left:50%;
 	display:block;
 	bottom:0;
-	width:55px;
+	width:60px;
 	height:3px;
 	background-color:#e00e0ec4;
 	transform:translateX(-50%);
@@ -286,6 +288,7 @@
 }
 .colo h2{
 	color:black;
+	padding-top:50px;
 }
 .port-list a{
 	text-decoration:none;
@@ -660,7 +663,7 @@
 .footerlink h3:after{
 	position: absolute;
 	left:0px;
-    top:-17px;
+    top:-20px;
     width: 30px;
 	height:60px;
     content: "";

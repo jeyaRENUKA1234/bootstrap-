@@ -29,7 +29,7 @@
 				<a class="navbar-brand fs-2 " href="#">Presonto<span class="text-danger">.</span></a>
 			<div class="order-lg-2">
 				<button class="btn btn-danger ms-4 but " type="button">Get Started</button>
-				<button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+				<button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"  aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
 						<span class="navbar-toggler-icon"></span>
 				</button>
 			
@@ -52,7 +52,7 @@
 						<a class="nav-link text-dark " href="#team">Team</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link text-dark " href="#blog">Blog</a>
+						<a class="nav-link text-dark " href="#blog">FQA</a>
 					</li>
 					<li class="nav-item dropdown">
 						<a class="nav-link dropdown-toggle text-dark " href="#" id="navbarDropdownMenuLink" 
@@ -1383,6 +1383,12 @@
 		<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 		<script>
 			AOS.init();
+			const navLinks = document.querySelectorAll('.nav-item')
+          const menuToggle = document.getElementById('navbarNav')
+          const bsCollapse = new bootstrap.Collapse(menuToggle, {toggle : false})
+          navLinks.forEach((l) => {
+              l.addEventListener('click', () => {bsCollapse.toggle()})
+          })
 		</script>
 		
 	</body>
